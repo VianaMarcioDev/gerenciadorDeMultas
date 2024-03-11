@@ -15,14 +15,12 @@ public class Cliente {
     @Column(nullable = false, length = 25)
     private String sobrenome;
     @Column(nullable = false, length = 11)
-    @CPF
     private String cpf;
     @Column(nullable = false)
     private Integer rg;
     @Column(nullable = false, length = 200)
     private String endereco;
     @Column(nullable = false)
-    @Email
     private String email;
     @Column(nullable = false, length = 14)
     private String telefone;
