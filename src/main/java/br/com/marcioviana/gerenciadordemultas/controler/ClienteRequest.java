@@ -10,10 +10,10 @@ import org.hibernate.validator.constraints.br.CPF;
 
 public class ClienteRequest {
     @NotBlank
-    @Length(min = 25, max = 25)
+    @Length(min = 2, max = 25)
     private String nome;
     @NotBlank
-    @Length(min = 25, max = 25)
+    @Length(min = 2, max = 25)
     private String sobrenome;
 
     @CPF
