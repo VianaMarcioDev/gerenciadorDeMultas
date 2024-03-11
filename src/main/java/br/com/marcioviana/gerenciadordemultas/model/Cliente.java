@@ -43,4 +43,8 @@ public class Cliente {
     @Deprecated
     public Cliente() {
     }
+
+    public Long getId() {
+        return id;
+    }
 }
